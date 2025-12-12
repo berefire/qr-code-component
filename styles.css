@@ -9,6 +9,7 @@
    --slate-300: hsl(212, 45%, 89%);
    --slate-500: hsl(216, 15%, 48%);
    --slate-900: hsl(218, 44%, 22%); 
+   --shadow-large: 0 25px 25px rgba(0, 0, 0, 0.05);
 }
 
 body {
@@ -19,7 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 1.5rem;
+  padding: clamp(1rem, 2vw, 2rem);
 }
 
 .card {
@@ -27,8 +28,8 @@ body {
   padding: 1rem;
   border-radius: 20px;
   width: 100%;
-  max-width: 320px;
-  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.05);
+  max-width: 20rem;
+  box-shadow: var(--shadow-large);
   text-align: center;
 }
 
@@ -56,14 +57,14 @@ body {
 .card__attribution { 
   font-size: 11px; 
   text-align: center; 
-  margin-top: 1rem;
+  margin-block-start: 1rem;
 }
     
 .card__attribution--link { 
   color: hsl(228, 45%, 44%); 
 }
 
-@media (min-width: 480px) {
+@media (min-width: 30rem) {
   body {
     padding: 0;
   }
