@@ -123,7 +123,11 @@ body {
 }
 
 .attribution { 
+<<<<<<< HEAD
   font-size: 0.6825rem;
+=======
+  font-size: 0.6875rem; 
+>>>>>>> 550d80a84fe9c994443418a8437e7df9bd939369
   text-align: center;
 }
     
