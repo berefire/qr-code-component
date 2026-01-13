@@ -13,10 +13,8 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("../assets/fonts/outfit/outfit-v15-latin-700.woff2")
-    format("woff2");
+  src: url("../assets/fonts/outfit/outfit-v15-latin-700.woff2") format("woff2");
 }
-
 
 /* || RESET */
 *,
@@ -39,34 +37,31 @@ textarea {
   font: inherit;
 }
 
-
 /* || VARIABLES */
 :root {
-
   /* COLORS */
-   --white-color: hsl(0, 0%, 100%);
-   --slate-300-color: hsl(212, 45%, 89%);
-   --slate-500-color: hsl(216, 15%, 48%);
-   --slate-900-color: hsl(218, 44%, 22%); 
-   --shadow-color: rgba(0, 0, 0, 0.05);
-   --blue-color: hsl(228, 45%, 44%);
+  --white-color: hsl(0, 0%, 100%);
+  --slate-300-color: hsl(212, 45%, 89%);
+  --slate-500-color: hsl(216, 15%, 48%);
+  --slate-900-color: hsl(218, 44%, 22%);
+  --shadow-color: rgba(0, 0, 0, 0.05);
+  --blue-color: hsl(228, 45%, 44%);
 
+  /* SHADOWS */
+  --box-shadow: 0 25px 25px rgba(0, 0, 0, 0.05);
 
-   /* SHADOWS */
-   --box-shadow: 0 25px 25px rgba(0, 0, 0, 0.05);
-
-   /* FONTS */
-   --outfit-font: "Outfit", sans-serif;
-   --font-size:  1rem;
+  /* FONTS */
+  --outfit-font: "Outfit", sans-serif;
+  --font-size: 1rem;
 }
 
 html {
   font-family: var(--outfit-font);
   background-color: var(--slate-300-color);
-  
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
 }
@@ -92,11 +87,10 @@ body {
   padding: 1rem;
   border-radius: 1.25rem;
   width: 100%;
-  max-width: 20rem;
+  max-width: clamp(20rem, 40vw, 30rem);
   box-shadow: var(--box-shadow);
   text-align: center;
 }
-
 
 .card__image {
   border-radius: 0.625rem;
@@ -123,12 +117,10 @@ body {
 }
 
 .attribution {
-  font-size: 0.6875rem;
+  font-size: 0.6825rem;
   text-align: center;
 }
-    
-.attribution--link { 
-  color: var(--blue-color); 
+
+.attribution--link {
+  color: var(--blue-color);
 }
-
-
