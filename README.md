@@ -2,38 +2,49 @@
 
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
+This project focuses on building a clean, accessible, and scalable QR code component using modern CSS architecture principles.
 
-- [Overview](#overview)
-  - [The challenge](#️the-challenge)
-  - [Screenshot](#screenshot)
+---
+
+- [Overview](#-overview)
+  - [The challenge](#️-the-challenge)
+  - [Screenshot](#-screenshot)
     - [Desktop](#desktop)
     - [Mobile](#mobile)
-  - [Links](#links)
+  - [Links](#-links)
 - [My process](#my-process)
-  - [Built with](#️built-with)
-  - [Features](#features)
-  - [What I learned](#what-i-learned)
-  - [Accessibility](#accessibility)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+  - [Built with](#️-built-with)
+  - [Features](#-features)
+  - [What I learned](#-what-i-learned)
+  - [Accessibility](#-accessibility)
+  - [Continued development](#-continued-development)
+  - [Useful resources](#-useful-resources)
+- [Author](#-author)
+- [Acknowledgments](#-acknowledgments)
 
-## 📋Overview
+---
+
+## 📋 Overview
 
 The challenge is to build a QR code component and make it visually as close as possible to the provided design, using clean semantic HTML, modern CSS, and good accessibility practices.
 
-### 🎖️The challenge
+This solution follows a modular and scalable CSS architecture inspired by CUBE CSS and Every Layout principles.
+
+---
+
+### 🎖️ The challenge
 
 Users should be able to:
 
 - View the QR code component on different screen sizes
 - Read the text content clearly with proper visual hierarchy
-- See a centered card layout without layouts shifts
-- View responsive images that scale corectly across devices
+- See a centered card layout without layout shifts
+- View responsive images that scale correctly across devices
+- Navigate the content using keyboard and assistive technologies
 
-### 📸Screenshot
+---
+
+### 📸 Screenshot
 
 #### Desktop
 
@@ -43,72 +54,119 @@ Users should be able to:
 
 ![Mobile view](./assets/screenshots/mobile.png)
 
-### 🔗Links
+---
+
+### 🔗 Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/qr-code-component-using-flexbox-and-bem-architecture-pLDZeBwf0o](https://www.frontendmentor.io/solutions/qr-code-component-using-flexbox-and-bem-architecture-pLDZeBwf0o)
 - Live Site URL: [https://berefire.github.io/qr-code-component](https://berefire.github.io/qr-code-component/)
 
+---
+
 ## My process
 
-### 🛠️Built with
+---
+
+### 🛠️ Built with
 
 - Semantic HTML5
-- CSS custom properties
-- Flexbox
-- CSS Grid
+- CSS Custom Properties (Design Tokens)
+- Flexbox and CSS Grid
 - Mobile-first workflow
-- BEM methodology
+- BEM methodology for components
+- CUBE CSS architecture
+- Every Layout patterns (Center, Stack, Box)
 - Local font loading with `@font-face`
 - Responsive design with `clamp()`
+- Lighthouse performance optimization
 
-### ✨Features
+---
 
-- Centered card layout using Flexbox
+### ✨ Features
+
+- Centered card layout using intrinsic design
 - Responsive typography and spacing
-- Clean and scalable CSS architecture
+- Modular and scalable CSS architecture
+- Reusable layout patterns
 - Custom font loading with fallback support
-- Mobile-first and responsive design
+- Accessible links and focus styles
+- Optimized for performance and maintainability
 
-### 📚What I learned
+---
 
-During this project I reinforced:
+### 📚 What I learned
 
-- How to center content vertically and horizontally using Flexbox.
-- Structuring styles using BEM naming conventions for better maintainability
-- Loading local fonts efficiently using `@font-face`
-- Managin design consistency with CSS custom properties
-- Using `clamp()` to responsive padding and spacing
-- Writing cleaner CSS by grouping resets, variables, and components logically
-- Understanding when `preload` is not necessary for small projects
+During this project, I reinforced and improved my understanding of:
 
-### ♿Accessibility
+- Applying CUBE CSS and Every Layout principles in real projects
+- Structuring scalable styles using BEM and utility classes
+- Creating reusable layout patterns instead of page-specific layouts
+- Managing design consistency with CSS custom properties
+- Building intrinsic layouts without relying heavily on media queries
+- Debugging CSS using cascade, specificity, and DevTools
+- Improving Lighthouse scores through better asset loading
+- Implementing accessible link and focus styles
+- Writing maintainable CSS by separating base, composition, utilities, and blocks
 
-This project follows basic WCAG 2.1 AA accessibility guidelines by:
+---
+
+### ♿ Accessibility
+
+This project follows WCAG 2.1 AA accessibility guidelines by:
 
 - Using semantic HTML elements such as `main`, `section`, and `address`
 - Providing meaningful `alt` text for images
+- Ensuring links are distinguishable beyond color
+- Supporting keyboard navigation with `:focus-visible`
 - Using scalable units for typography and spacing
+- Respecting user motion preferences
 
-### 🚀Continued development
+Accessibility was considered from the beginning of the development process.
 
-In future projects, I want to:
+---
 
-- Further improve accessibility testing with assistive tools
-- Optimize font loading strategies based on project size
-- Explore more advanced layout techniques
-- Continue refining CSS organization and scalability
+### 🚀 Continued development
 
-### 📖Useful resources
+In future projects, I plan to:
 
-- [MDN Web Docs](https://developer.mozilla.org/) - Comprehensive documentation for HTML and CSS.
-- [CSS Tricks Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Helped reinforce Flexbox layout concepts.
-- [Google Fonts Helper](https://gwfh.mranftl.com/fonts) - Used as reference for typography selection.
+- Perform more advanced accessibility audits
+- Explore automated testing tools
+- Improve font loading strategies
+- Implement dark mode using CSS variables
+- Create reusable project templates
+- Continue refining CSS architecture
+- Explore more advanced Every Layout patterns
 
-## 👤Author
+---
+
+### 📖 Useful resources
+
+- [MDN Web Docs](https://developer.mozilla.org/)  
+  Comprehensive documentation for HTML and CSS.
+
+- [Every Layout](https://every-layout.dev/)  
+  Practical layout patterns by Andy Bell and Heydon Pickering.
+
+- [CUBE CSS](https://cube.fyi/)  
+  CSS architecture methodology by Andy Bell.
+
+- [CSS Tricks Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)  
+  Helped reinforce Flexbox layout concepts.
+
+- [Google Fonts Helper](https://gwfh.mranftl.com/fonts)  
+  Used as reference for self-hosted fonts.
+
+---
+
+## 👤 Author
 
 - Frontend Mentor - [@berefire](https://www.frontendmentor.io/profile/berefire)
 - GitHub - [@berefire](https://github.com/berefire)
 
-## 🙏Acknowledgments
+---
 
-Thanks to Frontend Mentor for providing high-quality challenges that help developers grow through practice.
+## 🙏 Acknowledgments
+
+Thanks to Frontend Mentor for providing high-quality challenges that help developers grow through consistent practice.
+
+Special thanks to Andy Bell and Heydon Pickering for their work on CUBE CSS and Every Layout, which strongly influenced this project’s architecture.
