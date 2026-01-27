@@ -8,34 +8,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Berefire">
-  <meta name="description"
-    content="This QR component website was made by the author using HTML and CSS.">
-
+  <meta name="description" content="This QR component website was made by the author using HTML and CSS.">
+  <link rel="preload" href="./assets/fonts/outfit/outfit-v15-latin-regular.woff2" as="font" type="font/woff2"
+    crossorigin>
+  <link rel="preload" href="./assets/fonts/outfit/outfit-v15-latin-700.woff2" as="font" type="font/woff2" crossorigin>
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="./css/styles.css" type="text/css">
+
+  <link rel="preload" href="./css/main.css" as="style">
+  <link rel="stylesheet" href="./css/main.css" type="text/css">
 
 </head>
 
 <body>
-  <main class="layout">
-    <section class="card">
-      <img class="card__image" src="./assets/images/image-qr-code.png" alt="QR Code leading to Frontend Mentor website">
+  <main class="[ page ]">
+    <article class="[ qr-card ] [ box stack ]">
+      <img class="[ qr-card__image ] [ radius-s ]" src="./assets/images/image-qr-code.png"
+        alt="QR Code leading to Frontend Mentor website">
 
-      <h1 class="card__title">Improve your front-end skills by building projects</h1>
-      <p class="card__text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+      <h1 class="[ qr-card__title ] [ px-s ] [ text-center ]">Improve your front-end skills by building projects</h1>
+      <p class="[ qr-card__text ][ px-s ] [ text-center ] [ mb-s ]">Scan the QR code to visit Frontend Mentor and take
+        your coding skills to the
+        next level
       </p>
 
-    </section>
+    </article>
   </main>
-  <footer>
-    <address class="attribution">
-      Challenge by <a class="attribution--link" href="https://www.frontendmentor.io?ref=challenge"
-        target="_blank">Frontend Mentor</a>.
-      Coded by <a class="attribution--link" href="#">Berefire</a>.
+  <footer class="[ stack ] [ text-center ]">
+    <address class="[ attribution ]">
+      Challenge by <a class="[ link ]" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+        Mentor</a>.
+      Coded by <a class="[ link ]" href="#">Berefire</a>.
     </address>
   </footer>
 </body>
 
 </html>
-

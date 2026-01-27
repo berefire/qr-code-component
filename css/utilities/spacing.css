@@ -1,0 +1,15 @@
+.mt-m {
+    margin-block-start: var(--space-m);
+}
+
+.px-m {
+    padding-inline: var(--space-m);
+}
+
+.px-s {
+    padding-inline: var(--space-s);
+}
+
+.mb-s {
+    margin-block-end: var(--space-s);
+}

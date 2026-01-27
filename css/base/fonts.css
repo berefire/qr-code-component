@@ -1,0 +1,18 @@
+/* Outfit Regular - Latin */
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../assets/fonts/outfit/outfit-v15-latin-regular.woff2")
+    format("woff2");
+}
+
+/* Outfit Bold - Latin */
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../../assets/fonts/outfit/outfit-v15-latin-700.woff2") format("woff2");
+}
