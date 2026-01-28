@@ -1,5 +1,5 @@
 .box {
-    padding: var(--space-xs);
+    padding: var(--space-s) var(--space-s) var(--space-xl);
     border-radius: var(--radius-m);
     background-color: var(--color-white);
     box-shadow: var(--shadow-soft);

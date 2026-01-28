@@ -1,5 +1,5 @@
 .qr-card {
-    max-inline-size: min(100%, 16.5rem);
+    max-inline-size: min(100%, var(--card-max));
 }
 
 .qr-card__image {
@@ -8,15 +8,16 @@
 }
 
 .qr-card__title {
-    font-size: clamp(1.1rem, 0.5vw, 1.5rem);
-    font-weight: 700;
-    line-height: 1.3;
+    font-size: var(--text-l);
+    font-weight: var(--weight-bold);
+    line-height: var(--leading-tight);
     color: var(--color-text-title);
+    max-inline-size: var(--measure-s);
 }
 
 .qr-card__text {
-    font-size: clamp(0.8rem, 0.5vw, 1rem);
-    line-height: 1.5;
-    max-inline-size: var(--measure);
+    font-size: var(--text-s);
+    line-height: var(--leading-regular);
+    max-inline-size: var(--measure-m);
     margin-inline: auto;
 }

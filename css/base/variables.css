@@ -7,23 +7,40 @@
     --color-link: hsl(228, 45%, 44%);
 
     /* Spacing scale */
-    --space-3xs: 0.25rem;
-    --space-2xs: 0.5rem;
-    --space-xs: 0.75rem;
-    --space-s: 1rem;
-    --space-m: 1.5rem;
-    --space-l: 2rem;
+    --space-3xs: 0.25rem;   /* 4px */
+    --space-2xs: 0.5rem;    /* 8px */
+    --space-xs: 0.75rem;    /* 12px */
+    --space-s: 1rem;        /* 16px */
+    --space-m: 1.5rem;      /* 24px */
+    --space-l: 2rem;        /* 32px */
+    --space-xl: 2.5rem;     /* 40px */
 
     /* Radius */
-    --radius-s: 0.5rem;
-    --radius-m: 1.25rem;
+    --radius-s: 0.625rem;   /* 10px */
+    --radius-m: 1.25rem;    /* 20px */
 
     /* Shadow */
     --shadow-soft: 0 25px 25px rgb(0 0 0 / 5%);
 
-    /* Fonts */
+    /* Font families */
     --font-main: "Outfit", sans-serif;
 
-    /* Layout */
-    --measure: 30ch;
+    /* Font weights */
+    --weight-regular: 400;
+    --weight-bold: 700;
+
+    /* Font sizes */
+    --text-s: 0.9375rem;    /* 15px */
+    --text-l: 1.375rem;     /* 22px */
+
+    /* Line heights */
+    --leading-tight: 1.2;
+    --leading-regular: 1.4; 
+
+    /* Measures (text width) */
+    --measure-s: 26ch;        /* body text */
+    --measure-m: 30ch;        /* titles */
+
+    /* Card widths */
+    --card-max: 20rem;     /* 320px */
 }
