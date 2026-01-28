@@ -75,21 +75,3 @@ select {
 		scroll-behavior: auto !important;
 	}
 }
-
-
-html {
-    font-family: var(--font-main);
-    background-color: var(--color-bg);
-    color: var(--color-text-main);
-    -webkit-text-size-adjust: 100%;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-html,
-body {
-    min-block-size: 100vh;
-}

@@ -2,8 +2,10 @@
 @import "./base/fonts.css";
 @import "./base/reset.css";
 @import "./base/variables.css";
+@import "./base/global.css";
 
 /* ========== COMPOSITION ========== */
+@import "./composition/cover.css";
 @import "./composition/page.css";
 @import "./composition/stack.css";
 @import "./composition/box.css";

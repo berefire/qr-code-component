@@ -1,0 +1,11 @@
+html {
+  font-family: var(--font-main);
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+  -webkit-text-size-adjust: 100%;
+}
+
+html,
+body {
+  min-block-size: 100%;
+}

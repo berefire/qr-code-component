@@ -1,0 +1,10 @@
+.cover {
+    min-block-size: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cover > main {
+    margin-inline: auto;
+    margin-block: auto;
+}
