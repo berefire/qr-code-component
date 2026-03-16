@@ -9,7 +9,3 @@ html,
 body {
   min-block-size: 100%;
 }
-
-address {
-  display: inline;
-}
