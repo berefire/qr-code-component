@@ -5,6 +5,7 @@
     --color-text-main: hsl(216, 15%, 48%);
     --color-text-title: hsl(218, 44%, 22%);
     --color-link: hsl(228, 45%, 44%);
+    --color-dark: hsl(0, 0%, 8%);
 
     /* Spacing scale */
     --space-3xs: 0.25rem;   /* 4px */

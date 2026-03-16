@@ -1,6 +1,5 @@
 .cover {
     min-block-size: 100vh;
-    min-block-size: 100dvh;
     display: flex;
     flex-direction: column;
 }
@@ -8,4 +7,10 @@
 .cover > main {
     margin-inline: auto;
     margin-block: auto;
+}
+
+@supports (min-block-size: 100dvh) {
+    .cover {
+        min-block-size: 100dvh; /* Override with dynamic viewport height if supported */
+    }
 }
