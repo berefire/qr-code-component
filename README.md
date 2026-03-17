@@ -24,8 +24,6 @@ This project focuses on building a clean, accessible, and scalable QR code compo
 - [Overview](#-overview)
   - [The challenge](#️-the-challenge)
   - [Screenshot](#-screenshot)
-    - [Desktop](#desktop)
-    - [Mobile](#mobile)
   - [Links](#-links)
 - [My process](#my-process)
   - [Built with](#️-built-with)
